@@ -1,0 +1,478 @@
+Info: Reading netlist file "/media/sirius/storage/Projects/OldPortal/fmselectronics/servodriver/hardware/controller_mega32l/controller_mega32l.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "C1:/4DB326F1:SM1210".
+
+Info: Checking netlist component footprint "C2:/4DC36F37:SM0805".
+
+Changing component "C2:/4DC36F37" pin "1" net name from "N-0000031" to "Net-(C2-Pad1)".
+
+Info: Checking netlist component footprint "C3:/4DC1C956:SM0805".
+
+Changing component "C3:/4DC1C956" pin "1" net name from "N-0000031" to "Net-(C2-Pad1)".
+
+Info: Checking netlist component footprint "C4:/4DB328AF:SM0805".
+
+Changing component "C4:/4DB328AF" pin "1" net name from "N-0000069" to "Net-(C4-Pad1)".
+
+Info: Checking netlist component footprint "C5:/4DB4A5EF:SM0805".
+
+Info: Checking netlist component footprint "C6:/4DB4A5D2:SM0805".
+
+Info: Checking netlist component footprint "C7:/4DB4A5E3:SM0805".
+
+Info: Checking netlist component footprint "C8:/4DB4A5E8:SM0805".
+
+Info: Checking netlist component footprint "D1:/4DB4A759:SM1210L".
+
+Changing component "D1:/4DB4A759" pin "2" net name from "N-0000068" to "Net-(D1-Pad2)".
+
+Info: Checking netlist component footprint "D2:/4DBDEA19:SOT23".
+
+Changing component "D2:/4DBDEA19" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Changing component "D2:/4DBDEA19" pin "1" net name from "N-0000050" to "Net-(D2-Pad1)".
+
+Info: Checking netlist component footprint "D3:/4DC1CE82:SOT23".
+
+Changing component "D3:/4DC1CE82" pin "2" net name from "N-0000050" to "Net-(D2-Pad1)".
+
+Info: Checking netlist component footprint "D4:/4DBDEA21:SOT23".
+
+Changing component "D4:/4DBDEA21" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Changing component "D4:/4DBDEA21" pin "1" net name from "N-0000038" to "Net-(D4-Pad1)".
+
+Info: Checking netlist component footprint "D5:/4DC1CE9D:SOT23".
+
+Changing component "D5:/4DC1CE9D" pin "2" net name from "N-0000038" to "Net-(D4-Pad1)".
+
+Info: Checking netlist component footprint "D6:/4DBDEA25:SOT23".
+
+Changing component "D6:/4DBDEA25" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Changing component "D6:/4DBDEA25" pin "1" net name from "N-0000049" to "Net-(D6-Pad1)".
+
+Info: Checking netlist component footprint "D7:/4DC1CE91:SOT23".
+
+Changing component "D7:/4DC1CE91" pin "2" net name from "N-0000049" to "Net-(D6-Pad1)".
+
+Info: Checking netlist component footprint "D8:/4DBDEA2A:SOT23".
+
+Changing component "D8:/4DBDEA2A" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Changing component "D8:/4DBDEA2A" pin "1" net name from "N-0000037" to "Net-(D8-Pad1)".
+
+Info: Checking netlist component footprint "D9:/4DC1CEA4:SOT23".
+
+Changing component "D9:/4DC1CEA4" pin "2" net name from "N-0000037" to "Net-(D8-Pad1)".
+
+Info: Checking netlist component footprint "D10:/4DBDEA2F:SOT23".
+
+Changing component "D10:/4DBDEA2F" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Changing component "D10:/4DBDEA2F" pin "1" net name from "N-0000048" to "Net-(D10-Pad1)".
+
+Info: Checking netlist component footprint "D11:/4DC1CEA7:SOT23".
+
+Changing component "D11:/4DC1CEA7" pin "2" net name from "N-0000048" to "Net-(D10-Pad1)".
+
+Info: Checking netlist component footprint "D12:/4DBDEA35:SOT23".
+
+Changing component "D12:/4DBDEA35" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Changing component "D12:/4DBDEA35" pin "1" net name from "N-0000065" to "Net-(D12-Pad1)".
+
+Info: Checking netlist component footprint "D13:/4DC1CEAC:SOT23".
+
+Changing component "D13:/4DC1CEAC" pin "2" net name from "N-0000065" to "Net-(D12-Pad1)".
+
+Info: Checking netlist component footprint "D14:/4DBDEA3E:SOT23".
+
+Changing component "D14:/4DBDEA3E" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Changing component "D14:/4DBDEA3E" pin "1" net name from "N-0000047" to "Net-(D14-Pad1)".
+
+Info: Checking netlist component footprint "D15:/4DC1CEAF:SOT23".
+
+Changing component "D15:/4DC1CEAF" pin "2" net name from "N-0000047" to "Net-(D14-Pad1)".
+
+Info: Checking netlist component footprint "D16:/4DBDEA44:SOT23".
+
+Changing component "D16:/4DBDEA44" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Changing component "D16:/4DBDEA44" pin "1" net name from "N-0000030" to "Net-(D16-Pad1)".
+
+Info: Checking netlist component footprint "D17:/4DC1CEB4:SOT23".
+
+Changing component "D17:/4DC1CEB4" pin "2" net name from "N-0000030" to "Net-(D16-Pad1)".
+
+Info: Checking netlist component footprint "D18:/4DBDDF26:SOT23".
+
+Changing component "D18:/4DBDDF26" pin "2" net name from "N-0000052" to "Net-(D18-Pad2)".
+
+Changing component "D18:/4DBDDF26" pin "1" net name from "N-0000045" to "Net-(D18-Pad1)".
+
+Info: Checking netlist component footprint "D19:/4DBDDF31:SOT23".
+
+Changing component "D19:/4DBDDF31" pin "2" net name from "N-0000044" to "Net-(D19-Pad2)".
+
+Changing component "D19:/4DBDDF31" pin "1" net name from "N-0000052" to "Net-(D18-Pad2)".
+
+Info: Checking netlist component footprint "D20:/4DBDEAA3:SM1210L".
+
+Changing component "D20:/4DBDEAA3" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Info: Checking netlist component footprint "D21:/4DBDDEA9:SM1206".
+
+Changing component "D21:/4DBDDEA9" pin "2" net name from "N-0000044" to "Net-(D19-Pad2)".
+
+Info: Checking netlist component footprint "D22:/4DBDDEA1:SM1206".
+
+Changing component "D22:/4DBDDEA1" pin "1" net name from "N-0000045" to "Net-(D18-Pad1)".
+
+Info: Checking netlist component footprint "D23:/4DBDDF39:SOT23".
+
+Changing component "D23:/4DBDDF39" pin "2" net name from "N-0000043" to "Net-(D23-Pad2)".
+
+Changing component "D23:/4DBDDF39" pin "1" net name from "N-0000045" to "Net-(D18-Pad1)".
+
+Info: Checking netlist component footprint "D24:/4DBDDF3F:SOT23".
+
+Changing component "D24:/4DBDDF3F" pin "2" net name from "N-0000044" to "Net-(D19-Pad2)".
+
+Changing component "D24:/4DBDDF3F" pin "1" net name from "N-0000043" to "Net-(D23-Pad2)".
+
+Info: Checking netlist component footprint "D25:/4F0A1576:SOT23".
+
+Changing component "D25:/4F0A1576" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Info: Checking netlist component footprint "D26:/4F0A19C5:SOT23".
+
+Info: Checking netlist component footprint "D27:/4F0A15C6:SOT23".
+
+Changing component "D27:/4F0A15C6" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Info: Checking netlist component footprint "D28:/4F0A1AA5:SOT23".
+
+Info: Checking netlist component footprint "D29:/4F0A15D8:SOT23".
+
+Changing component "D29:/4F0A15D8" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Info: Checking netlist component footprint "D30:/4F0A1A77:SOT23".
+
+Info: Checking netlist component footprint "D31:/4F0A15E0:SOT23".
+
+Changing component "D31:/4F0A15E0" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Info: Checking netlist component footprint "D32:/4F0A1AD5:SOT23".
+
+Info: Checking netlist component footprint "D33:/4F0A15ED:SOT23".
+
+Changing component "D33:/4F0A15ED" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Info: Checking netlist component footprint "D34:/4F0A1AE6:SOT23".
+
+Info: Checking netlist component footprint "D35:/4F0A15FC:SOT23".
+
+Changing component "D35:/4F0A15FC" pin "2" net name from "N-0000046" to "Net-(D10-Pad2)".
+
+Info: Checking netlist component footprint "D36:/4F0A1AF4:SOT23".
+
+Info: Checking netlist component footprint "IC1:/4DB074D9:TQFP44".
+
+Changing component "IC1:/4DB074D9" pin "37" net name from "N-0000050" to "Net-(D2-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "36" net name from "N-0000038" to "Net-(D4-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "35" net name from "N-0000049" to "Net-(D6-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "34" net name from "N-0000037" to "Net-(D8-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "16" net name from "N-000009" to "Net-(IC1-Pad16)".
+
+Changing component "IC1:/4DB074D9" pin "15" net name from "N-0000063" to "Net-(IC1-Pad15)".
+
+Changing component "IC1:/4DB074D9" pin "14" net name from "N-0000026" to "Net-(IC1-Pad14)".
+
+Changing component "IC1:/4DB074D9" pin "13" net name from "N-0000062" to "Net-(IC1-Pad13)".
+
+Changing component "IC1:/4DB074D9" pin "12" net name from "N-000008" to "Net-(IC1-Pad12)".
+
+Changing component "IC1:/4DB074D9" pin "20" net name from "N-0000057" to "Net-(IC1-Pad20)".
+
+Changing component "IC1:/4DB074D9" pin "7" net name from "N-0000028" to "Net-(IC1-Pad7)".
+
+Changing component "IC1:/4DB074D9" pin "26" net name from "N-0000061" to "Net-(IC1-Pad26)".
+
+Changing component "IC1:/4DB074D9" pin "8" net name from "N-0000029" to "Net-(IC1-Pad8)".
+
+Changing component "IC1:/4DB074D9" pin "9" net name from "N-0000027" to "Net-(IC1-Pad9)".
+
+Changing component "IC1:/4DB074D9" pin "25" net name from "N-0000015" to "Net-(IC1-Pad25)".
+
+Changing component "IC1:/4DB074D9" pin "10" net name from "N-0000022" to "Net-(IC1-Pad10)".
+
+Changing component "IC1:/4DB074D9" pin "11" net name from "N-0000023" to "Net-(IC1-Pad11)".
+
+Changing component "IC1:/4DB074D9" pin "29" net name from "N-0000031" to "Net-(C2-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "4" net name from "N-0000069" to "Net-(C4-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "30" net name from "N-0000030" to "Net-(D16-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "31" net name from "N-0000047" to "Net-(D14-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "3" net name from "N-000004" to "Net-(IC1-Pad3)".
+
+Changing component "IC1:/4DB074D9" pin "2" net name from "N-0000060" to "Net-(IC1-Pad2)".
+
+Changing component "IC1:/4DB074D9" pin "32" net name from "N-0000065" to "Net-(D12-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "33" net name from "N-0000048" to "Net-(D10-Pad1)".
+
+Changing component "IC1:/4DB074D9" pin "1" net name from "N-000006" to "Net-(IC1-Pad1)".
+
+Info: Checking netlist component footprint "IC2:/4DBDD5E3:DIP-8__300".
+
+Changing component "IC2:/4DBDD5E3" pin "1" net name from "N-0000022" to "Net-(IC1-Pad10)".
+
+Changing component "IC2:/4DBDD5E3" pin "2" net name from "N-0000023" to "Net-(IC1-Pad11)".
+
+Changing component "IC2:/4DBDD5E3" pin "3" net name from "N-0000023" to "Net-(IC1-Pad11)".
+
+Changing component "IC2:/4DBDD5E3" pin "4" net name from "N-0000027" to "Net-(IC1-Pad9)".
+
+Changing component "IC2:/4DBDD5E3" pin "6" net name from "N-0000024" to "Net-(IC2-Pad6)".
+
+Changing component "IC2:/4DBDD5E3" pin "7" net name from "N-0000025" to "Net-(IC2-Pad7)".
+
+Info: Checking netlist component footprint "J1:/4DB1B186:RJ45_8".
+
+Changing component "J1:/4DB1B186" pin "1" net name from "N-0000017" to "Net-(J1-Pad1)".
+
+Changing component "J1:/4DB1B186" pin "2" net name from "N-0000018" to "Net-(J1-Pad2)".
+
+Changing component "J1:/4DB1B186" pin "3" net name from "N-0000019" to "Net-(J1-Pad3)".
+
+Changing component "J1:/4DB1B186" pin "4" net name from "N-0000043" to "Net-(D23-Pad2)".
+
+Changing component "J1:/4DB1B186" pin "5" net name from "N-0000052" to "Net-(D18-Pad2)".
+
+Changing component "J1:/4DB1B186" pin "6" net name from "N-0000020" to "Net-(J1-Pad6)".
+
+Changing component "J1:/4DB1B186" pin "7" net name from "N-0000021" to "Net-(J1-Pad7)".
+
+Changing component "J1:/4DB1B186" pin "8" net name from "N-0000041" to "Net-(J1-Pad8)".
+
+Info: Checking netlist component footprint "K1:/4F0A3E43:PIN_ARRAY_3X1".
+
+Info: Checking netlist component footprint "P1:/4F0A3B61:PIN_ARRAY_5x2".
+
+Changing component "P1:/4F0A3B61" pin "2" net name from "N-0000057" to "Net-(IC1-Pad20)".
+
+Changing component "P1:/4F0A3B61" pin "3" net name from "N-0000015" to "Net-(IC1-Pad25)".
+
+Changing component "P1:/4F0A3B61" pin "4" net name from "N-0000061" to "Net-(IC1-Pad26)".
+
+Changing component "P1:/4F0A3B61" pin "5" net name from "N-000008" to "Net-(IC1-Pad12)".
+
+Changing component "P1:/4F0A3B61" pin "6" net name from "N-0000062" to "Net-(IC1-Pad13)".
+
+Changing component "P1:/4F0A3B61" pin "7" net name from "N-0000026" to "Net-(IC1-Pad14)".
+
+Changing component "P1:/4F0A3B61" pin "8" net name from "N-0000063" to "Net-(IC1-Pad15)".
+
+Changing component "P1:/4F0A3B61" pin "9" net name from "N-000009" to "Net-(IC1-Pad16)".
+
+Info: Checking netlist component footprint "P2:/4DC86003:pin_array_3x2".
+
+Changing component "P2:/4DC86003" pin "1" net name from "N-0000060" to "Net-(IC1-Pad2)".
+
+Changing component "P2:/4DC86003" pin "3" net name from "N-000004" to "Net-(IC1-Pad3)".
+
+Changing component "P2:/4DC86003" pin "4" net name from "N-000006" to "Net-(IC1-Pad1)".
+
+Info: Checking netlist component footprint "P3:/4DC2DAF5:PIN_ARRAY_5x2".
+
+Changing component "P3:/4DC2DAF5" pin "7" net name from "N-0000035" to "Net-(P3-Pad7)".
+
+Changing component "P3:/4DC2DAF5" pin "8" net name from "N-0000036" to "Net-(P3-Pad8)".
+
+Info: Checking netlist component footprint "P4:/4F0A3AAB:PIN_ARRAY_5x2".
+
+Changing component "P4:/4F0A3AAB" pin "2" net name from "N-0000032" to "Net-(P4-Pad2)".
+
+Changing component "P4:/4F0A3AAB" pin "3" net name from "N-0000033" to "Net-(P4-Pad3)".
+
+Changing component "P4:/4F0A3AAB" pin "4" net name from "N-0000034" to "Net-(P4-Pad4)".
+
+Changing component "P4:/4F0A3AAB" pin "5" net name from "N-0000010" to "Net-(P4-Pad5)".
+
+Changing component "P4:/4F0A3AAB" pin "6" net name from "N-0000011" to "Net-(P4-Pad6)".
+
+Changing component "P4:/4F0A3AAB" pin "7" net name from "N-0000012" to "Net-(P4-Pad7)".
+
+Changing component "P4:/4F0A3AAB" pin "8" net name from "N-0000013" to "Net-(P4-Pad8)".
+
+Changing component "P4:/4F0A3AAB" pin "9" net name from "N-0000014" to "Net-(P4-Pad9)".
+
+Info: Checking netlist component footprint "P5:/4F0A39AE:pin_array_4x2".
+
+Info: Checking netlist component footprint "P6:/4F0A41DA:PIN_ARRAY_2X1".
+
+Info: Checking netlist component footprint "Q1:/4DB324F9:TO220".
+
+Changing component "Q1:/4DB324F9" pin "2" net name from "N-0000068" to "Net-(D1-Pad2)".
+
+Info: Checking netlist component footprint "R1:/4DB3253B:C1".
+
+Changing component "R1:/4DB3253B" pin "2" net name from "N-0000068" to "Net-(D1-Pad2)".
+
+Info: Checking netlist component footprint "R2:/4DB328C1:SM0603".
+
+Changing component "R2:/4DB328C1" pin "2" net name from "N-0000069" to "Net-(C4-Pad1)".
+
+Info: Checking netlist component footprint "R3:/4DC36F62:C1".
+
+Changing component "R3:/4DC36F62" pin "2" net name from "N-0000031" to "Net-(C2-Pad1)".
+
+Info: Checking netlist component footprint "R4:/4DC36EFB:C1".
+
+Changing component "R4:/4DC36EFB" pin "1" net name from "N-0000031" to "Net-(C2-Pad1)".
+
+Info: Checking netlist component footprint "R5:/4F0A1882:SM0603".
+
+Changing component "R5:/4F0A1882" pin "1" net name from "N-0000057" to "Net-(IC1-Pad20)".
+
+Info: Checking netlist component footprint "R6:/4F0A17A5:SM0603".
+
+Changing component "R6:/4F0A17A5" pin "1" net name from "N-0000015" to "Net-(IC1-Pad25)".
+
+Info: Checking netlist component footprint "R7:/4DC1CAA5:SM0603".
+
+Changing component "R7:/4DC1CAA5" pin "1" net name from "N-0000061" to "Net-(IC1-Pad26)".
+
+Info: Checking netlist component footprint "R8:/4DC1CABA:SM0603".
+
+Changing component "R8:/4DC1CABA" pin "1" net name from "N-000008" to "Net-(IC1-Pad12)".
+
+Info: Checking netlist component footprint "R9:/4DC1CABF:SM0603".
+
+Changing component "R9:/4DC1CABF" pin "1" net name from "N-0000062" to "Net-(IC1-Pad13)".
+
+Info: Checking netlist component footprint "R10:/4DC1CAC5:SM0603".
+
+Changing component "R10:/4DC1CAC5" pin "1" net name from "N-0000026" to "Net-(IC1-Pad14)".
+
+Info: Checking netlist component footprint "R11:/4F0A17EF:SM0603".
+
+Changing component "R11:/4F0A17EF" pin "1" net name from "N-0000063" to "Net-(IC1-Pad15)".
+
+Info: Checking netlist component footprint "R12:/4F0A1823:SM0603".
+
+Changing component "R12:/4F0A1823" pin "1" net name from "N-000009" to "Net-(IC1-Pad16)".
+
+Info: Checking netlist component footprint "R13:/4DC36CF6:C1".
+
+Changing component "R13:/4DC36CF6" pin "2" net name from "N-0000069" to "Net-(C4-Pad1)".
+
+Info: Checking netlist component footprint "R14:/4F09B501:C1".
+
+Changing component "R14:/4F09B501" pin "1" net name from "N-0000023" to "Net-(IC1-Pad11)".
+
+Info: Checking netlist component footprint "R15:/4DC2DDBA:SM0603".
+
+Changing component "R15:/4DC2DDBA" pin "2" net name from "N-000004" to "Net-(IC1-Pad3)".
+
+Info: Checking netlist component footprint "R16:/4DC2DDBE:SM0603".
+
+Changing component "R16:/4DC2DDBE" pin "2" net name from "N-0000060" to "Net-(IC1-Pad2)".
+
+Info: Checking netlist component footprint "R17:/4DBDEDB1:C1".
+
+Changing component "R17:/4DBDEDB1" pin "1" net name from "N-0000032" to "Net-(P4-Pad2)".
+
+Changing component "R17:/4DBDEDB1" pin "2" net name from "N-0000050" to "Net-(D2-Pad1)".
+
+Info: Checking netlist component footprint "R18:/4DC2DDB3:SM0603".
+
+Changing component "R18:/4DC2DDB3" pin "2" net name from "N-000006" to "Net-(IC1-Pad1)".
+
+Info: Checking netlist component footprint "R19:/4DBDEDA4:C1".
+
+Changing component "R19:/4DBDEDA4" pin "1" net name from "N-0000033" to "Net-(P4-Pad3)".
+
+Changing component "R19:/4DBDEDA4" pin "2" net name from "N-0000038" to "Net-(D4-Pad1)".
+
+Info: Checking netlist component footprint "R20:/4DBDED9F:C1".
+
+Changing component "R20:/4DBDED9F" pin "1" net name from "N-0000034" to "Net-(P4-Pad4)".
+
+Changing component "R20:/4DBDED9F" pin "2" net name from "N-0000049" to "Net-(D6-Pad1)".
+
+Info: Checking netlist component footprint "R21:/4DC2DDA9:SM0603".
+
+Info: Checking netlist component footprint "R22:/4DC2DD9E:SM0603".
+
+Info: Checking netlist component footprint "R23:/4DBDED9A:C1".
+
+Changing component "R23:/4DBDED9A" pin "1" net name from "N-0000010" to "Net-(P4-Pad5)".
+
+Changing component "R23:/4DBDED9A" pin "2" net name from "N-0000037" to "Net-(D8-Pad1)".
+
+Info: Checking netlist component footprint "R24:/4DC2DD9A:SM0603".
+
+Info: Checking netlist component footprint "R25:/4DBDED92:C1".
+
+Changing component "R25:/4DBDED92" pin "1" net name from "N-0000011" to "Net-(P4-Pad6)".
+
+Changing component "R25:/4DBDED92" pin "2" net name from "N-0000048" to "Net-(D10-Pad1)".
+
+Info: Checking netlist component footprint "R26:/4DBDD7B0:C1".
+
+Changing component "R26:/4DBDD7B0" pin "1" net name from "N-0000025" to "Net-(IC2-Pad7)".
+
+Changing component "R26:/4DBDD7B0" pin "2" net name from "N-0000052" to "Net-(D18-Pad2)".
+
+Info: Checking netlist component footprint "R27:/4DBDD7C0:C1".
+
+Changing component "R27:/4DBDD7C0" pin "1" net name from "N-0000024" to "Net-(IC2-Pad6)".
+
+Changing component "R27:/4DBDD7C0" pin "2" net name from "N-0000043" to "Net-(D23-Pad2)".
+
+Info: Checking netlist component footprint "R28:/4DC2DCB6:SM0603".
+
+Info: Checking netlist component footprint "R29:/4DBDED8B:C1".
+
+Changing component "R29:/4DBDED8B" pin "1" net name from "N-0000012" to "Net-(P4-Pad7)".
+
+Changing component "R29:/4DBDED8B" pin "2" net name from "N-0000065" to "Net-(D12-Pad1)".
+
+Info: Checking netlist component footprint "R30:/4DBDED82:C1".
+
+Changing component "R30:/4DBDED82" pin "1" net name from "N-0000013" to "Net-(P4-Pad8)".
+
+Changing component "R30:/4DBDED82" pin "2" net name from "N-0000047" to "Net-(D14-Pad1)".
+
+Info: Checking netlist component footprint "R31:/4DBDE5D8:SM0603".
+
+Changing component "R31:/4DBDE5D8" pin "2" net name from "N-0000043" to "Net-(D23-Pad2)".
+
+Info: Checking netlist component footprint "R32:/4DBDED77:C1".
+
+Changing component "R32:/4DBDED77" pin "1" net name from "N-0000014" to "Net-(P4-Pad9)".
+
+Changing component "R32:/4DBDED77" pin "2" net name from "N-0000030" to "Net-(D16-Pad1)".
+
+Info: Checking netlist component footprint "R33:/4DBDE50D:SM0603".
+
+Changing component "R33:/4DBDE50D" pin "1" net name from "N-0000052" to "Net-(D18-Pad2)".
+
+Info: Checking netlist component footprint "R34:/4DBDE4EF:C1".
+
+Changing component "R34:/4DBDE4EF" pin "1" net name from "N-0000041" to "Net-(J1-Pad8)".
+
+Error: Component 'J1' pad '9' not found in footprint 'RJ45_8'
+

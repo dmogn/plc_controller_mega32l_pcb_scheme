@@ -1,0 +1,590 @@
+PCBNEW-BOARD Version 2 date Mon 17 Mar 2014 11:00:21 PM UYT
+
+# Created by Pcbnew(2013-07-07 BZR 4022)-stable
+
+$GENERAL
+encoding utf-8
+Units mm
+LayerCount 2
+EnabledLayers 1FFF8001
+Links 6
+NoConn 6
+Di 79.602371 41.502371 93.117629 55.017629
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 1.6002
+Nmodule 1
+Nnets 37
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11693 8268
+Title ""
+Date "18 mar 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 0.2032
+TrackClearence 0.254
+ZoneClearence 0.508
+Zone_45_Only 0
+TrackMinWidth 0.2032
+DrawSegmWidth 0.381
+EdgeSegmWidth 0.381
+ViaSize 0.889
+ViaDrill 0.635
+ViaMinSize 0.889
+ViaMinDrill 0.508
+MicroViaSize 0.508
+MicroViaDrill 0.127
+MicroViasAllowed 0
+MicroViaMinSize 0.508
+MicroViaMinDrill 0.127
+TextPcbWidth 0.3048
+TextPcbSize 1.524 2.032
+EdgeModWidth 0.381
+TextModSize 1.524 1.524
+TextModWidth 0.3048
+PadSize 1.524 1.524
+PadDrill 0.8128
+Pad2MaskClearance 0.254
+SolderMaskMinWidth 0
+AuxiliaryAxisOrg 0 0
+VisibleElements FFFFFFBF
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "+5VD"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "/GPIO_1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "/GPIO_2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "/GPIO_3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "/GPIO_4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 6 "/GPIO_5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 7 "/GPIO_6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 8 "/TCK"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 9 "/TDI"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 10 "/TDO"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 11 "/TMS"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 12 "DGND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 13 "N-0000015"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 14 "N-0000022"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 15 "N-0000023"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 16 "N-0000026"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 17 "N-0000027"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 18 "N-0000030"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 19 "N-0000031"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 20 "N-0000037"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 21 "N-0000038"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 22 "N-000004"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 23 "N-0000047"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 24 "N-0000048"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 25 "N-0000049"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 26 "N-0000050"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 27 "N-0000057"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 28 "N-000006"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 29 "N-0000060"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 30 "N-0000061"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 31 "N-0000062"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 32 "N-0000063"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 33 "N-0000065"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 34 "N-0000069"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 35 "N-000008"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 36 "N-000009"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "Это класс цепей по умолчанию."
+Clearance 0.254
+TrackWidth 0.2032
+ViaDia 0.889
+ViaDrill 0.635
+uViaDia 0.508
+uViaDrill 0.127
+AddNet ""
+AddNet "+5VD"
+AddNet "/GPIO_1"
+AddNet "/GPIO_2"
+AddNet "/GPIO_3"
+AddNet "/GPIO_4"
+AddNet "/GPIO_5"
+AddNet "/GPIO_6"
+AddNet "/TCK"
+AddNet "/TDI"
+AddNet "/TDO"
+AddNet "/TMS"
+AddNet "DGND"
+AddNet "N-0000015"
+AddNet "N-0000022"
+AddNet "N-0000023"
+AddNet "N-0000026"
+AddNet "N-0000027"
+AddNet "N-0000030"
+AddNet "N-0000031"
+AddNet "N-0000037"
+AddNet "N-0000038"
+AddNet "N-000004"
+AddNet "N-0000047"
+AddNet "N-0000048"
+AddNet "N-0000049"
+AddNet "N-0000050"
+AddNet "N-0000057"
+AddNet "N-000006"
+AddNet "N-0000060"
+AddNet "N-0000061"
+AddNet "N-0000062"
+AddNet "N-0000063"
+AddNet "N-0000065"
+AddNet "N-0000069"
+AddNet "N-000008"
+AddNet "N-000009"
+$EndNCLASS
+$MODULE TQFP44
+Po 86.36 48.26 0 15 00200000 5327A739 ~~
+Li TQFP44
+Sc 5327A739
+AR /4DB074D9
+Op 0 0 0
+At SMD
+T0 0 -1.905 1.524 1.016 0 0.2032 N V 21 N "IC1"
+T1 0 1.905 1.524 1.016 0 0.2032 N V 21 N "ATMEGA32-A"
+DS 5.0038 -5.0038 5.0038 5.0038 0.3048 21
+DS 5.0038 5.0038 -5.0038 5.0038 0.3048 21
+DS -5.0038 -4.5212 -5.0038 5.0038 0.3048 21
+DS -4.5212 -5.0038 5.0038 -5.0038 0.3048 21
+DS -5.0038 -4.5212 -4.5212 -5.0038 0.3048 21
+DC -3.81 -3.81 -3.81 -3.175 0.2032 21
+$PAD
+Sh "39" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "DGND"
+Po 0 -5.715
+$EndPAD
+$PAD
+Sh "40" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "/GPIO_1"
+Po -0.8001 -5.715
+$EndPAD
+$PAD
+Sh "41" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "/GPIO_2"
+Po -1.6002 -5.715
+$EndPAD
+$PAD
+Sh "42" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "/GPIO_3"
+Po -2.4003 -5.715
+$EndPAD
+$PAD
+Sh "43" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "/GPIO_4"
+Po -3.2004 -5.715
+$EndPAD
+$PAD
+Sh "44" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "/GPIO_5"
+Po -4.0005 -5.715
+$EndPAD
+$PAD
+Sh "38" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5VD"
+Po 0.8001 -5.715
+$EndPAD
+$PAD
+Sh "37" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 26 "N-0000050"
+Po 1.6002 -5.715
+$EndPAD
+$PAD
+Sh "36" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 21 "N-0000038"
+Po 2.4003 -5.715
+$EndPAD
+$PAD
+Sh "35" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 25 "N-0000049"
+Po 3.2004 -5.715
+$EndPAD
+$PAD
+Sh "34" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 20 "N-0000037"
+Po 4.0005 -5.715
+$EndPAD
+$PAD
+Sh "17" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5VD"
+Po 0 5.715
+$EndPAD
+$PAD
+Sh "16" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 36 "N-000009"
+Po -0.8001 5.715
+$EndPAD
+$PAD
+Sh "15" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 32 "N-0000063"
+Po -1.6002 5.715
+$EndPAD
+$PAD
+Sh "14" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 16 "N-0000026"
+Po -2.4003 5.715
+$EndPAD
+$PAD
+Sh "13" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 31 "N-0000062"
+Po -3.2004 5.715
+$EndPAD
+$PAD
+Sh "12" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 35 "N-000008"
+Po -4.0005 5.715
+$EndPAD
+$PAD
+Sh "18" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "DGND"
+Po 0.8001 5.715
+$EndPAD
+$PAD
+Sh "19" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "/GPIO_6"
+Po 1.6002 5.715
+$EndPAD
+$PAD
+Sh "20" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 27 "N-0000057"
+Po 2.4003 5.715
+$EndPAD
+$PAD
+Sh "21" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "/TCK"
+Po 3.2004 5.715
+$EndPAD
+$PAD
+Sh "22" R 0.4064 1.524 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "/TMS"
+Po 4.0005 5.715
+$EndPAD
+$PAD
+Sh "6" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "DGND"
+Po -5.715 0
+$EndPAD
+$PAD
+Sh "28" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "DGND"
+Po 5.715 0
+$EndPAD
+$PAD
+Sh "7" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.715 0.8001
+$EndPAD
+$PAD
+Sh "27" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5VD"
+Po 5.715 0.8001
+$EndPAD
+$PAD
+Sh "26" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 30 "N-0000061"
+Po 5.715 1.6002
+$EndPAD
+$PAD
+Sh "8" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.715 1.6002
+$EndPAD
+$PAD
+Sh "9" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 17 "N-0000027"
+Po -5.715 2.4003
+$EndPAD
+$PAD
+Sh "25" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 13 "N-0000015"
+Po 5.715 2.4003
+$EndPAD
+$PAD
+Sh "24" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "/TDI"
+Po 5.715 3.2004
+$EndPAD
+$PAD
+Sh "10" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 14 "N-0000022"
+Po -5.715 3.2004
+$EndPAD
+$PAD
+Sh "11" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 15 "N-0000023"
+Po -5.715 4.0005
+$EndPAD
+$PAD
+Sh "23" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "/TDO"
+Po 5.715 4.0005
+$EndPAD
+$PAD
+Sh "29" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 19 "N-0000031"
+Po 5.715 -0.8001
+$EndPAD
+$PAD
+Sh "5" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "+5VD"
+Po -5.715 -0.8001
+$EndPAD
+$PAD
+Sh "4" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 34 "N-0000069"
+Po -5.715 -1.6002
+$EndPAD
+$PAD
+Sh "30" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 18 "N-0000030"
+Po 5.715 -1.6002
+$EndPAD
+$PAD
+Sh "31" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 23 "N-0000047"
+Po 5.715 -2.4003
+$EndPAD
+$PAD
+Sh "3" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 22 "N-000004"
+Po -5.715 -2.4003
+$EndPAD
+$PAD
+Sh "2" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 29 "N-0000060"
+Po -5.715 -3.2004
+$EndPAD
+$PAD
+Sh "32" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 33 "N-0000065"
+Po 5.715 -3.2004
+$EndPAD
+$PAD
+Sh "33" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 24 "N-0000048"
+Po 5.715 -4.0005
+$EndPAD
+$PAD
+Sh "1" R 1.524 0.4064 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 28 "N-000006"
+Po -5.715 -4.0005
+$EndPAD
+$EndMODULE TQFP44
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
