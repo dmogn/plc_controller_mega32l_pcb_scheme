@@ -4,3 +4,6 @@ PLC controller hardware PCB scheme. ATMega32L, RS485 industrial bus interface, 8
 KiCAD 4 project.
 
 Status: Alpha
+
+
+![KiCAD PLC Scheme Screenshot](doc/scheme_screenshot.png "PLC Scheme Screenshot")
