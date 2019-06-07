@@ -1,6 +1,40 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:controller_mega32l-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:maxim
+LIBS:smd-special
+LIBS:transistor-power
+LIBS:electrotechnique
 LIBS:controller_mega32l-cache
-EELAYER 29 0
+EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -29,7 +63,7 @@ TDO
 Text Label 10550 9350 0    60   ~ 0
 TCK
 $Comp
-L controller_mega32l-rescue:CONN_2 P1
+L CONN_2 P1
 U 1 1 4F0A41DA
 P 3800 5150
 F 0 "P1" V 3750 5150 40  0000 C CNN
@@ -40,7 +74,7 @@ F 3 "" H 3800 5150 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR01
+L DGND #PWR01
 U 1 1 4F0A402F
 P 13500 10600
 F 0 "#PWR01" H 13500 10600 40  0001 C CNN
@@ -53,7 +87,7 @@ $EndComp
 Text Notes 3600 5000 0    60   ~ 0
 Power In
 $Comp
-L controller_mega32l-rescue:CONN_3 K1
+L CONN_3 K1
 U 1 1 4F0A3E43
 P 4400 5750
 F 0 "K1" V 4350 5750 50  0000 C CNN
@@ -64,7 +98,7 @@ F 3 "" H 4400 5750 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:+5VD #PWR02
+L +5VD #PWR02
 U 1 1 4F0A3BC0
 P 8000 12500
 F 0 "#PWR02" H 8000 12450 20  0001 C CNN
@@ -75,7 +109,7 @@ F 3 "" H 8000 12500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:CONN_10 P2
+L CONN_10 P2
 U 1 1 4F0A3B61
 P 7550 13000
 F 0 "P2" V 7500 13000 60  0000 C CNN
@@ -86,7 +120,7 @@ F 3 "" H 7550 13000 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:+5VD #PWR03
+L +5VD #PWR03
 U 1 1 4F0A3AC7
 P 11700 4450
 F 0 "#PWR03" H 11700 4400 20  0001 C CNN
@@ -97,7 +131,7 @@ F 3 "" H 11700 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR04
+L DGND #PWR04
 U 1 1 4F0A3ABC
 P 11700 5700
 F 0 "#PWR04" H 11700 5700 40  0001 C CNN
@@ -108,7 +142,7 @@ F 3 "" H 11700 5700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:CONN_10 P5
+L CONN_10 P5
 U 1 1 4F0A3AAB
 P 12050 5050
 F 0 "P5" V 12000 5050 60  0000 C CNN
@@ -119,7 +153,7 @@ F 3 "" H 12050 5050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:+5VD #PWR05
+L +5VD #PWR05
 U 1 1 4F0A3A58
 P 14900 8550
 F 0 "#PWR05" H 14900 8500 20  0001 C CNN
@@ -130,7 +164,7 @@ F 3 "" H 14900 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR06
+L DGND #PWR06
 U 1 1 4F0A39F6
 P 14900 9600
 F 0 "#PWR06" H 14900 9600 40  0001 C CNN
@@ -141,7 +175,7 @@ F 3 "" H 14900 9600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:CONN_8 P6
+L CONN_8 P6
 U 1 1 4F0A39AE
 P 15250 9050
 F 0 "P6" V 15200 9050 60  0000 C CNN
@@ -186,7 +220,7 @@ Entry Wire Line
 Entry Wire Line
 	12000 8900 12100 8800
 $Comp
-L controller_mega32l-rescue:DIODE D28
+L DIODE D28
 U 1 1 4F0A1AF4
 P 14700 8400
 F 0 "D28" H 14700 8500 40  0000 C CNN
@@ -197,7 +231,7 @@ F 3 "" H 14700 8400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D26
+L DIODE D26
 U 1 1 4F0A1AE6
 P 14300 8400
 F 0 "D26" H 14300 8500 40  0000 C CNN
@@ -208,7 +242,7 @@ F 3 "" H 14300 8400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D25
+L DIODE D25
 U 1 1 4F0A1AD5
 P 13900 8400
 F 0 "D25" H 13900 8500 40  0000 C CNN
@@ -219,7 +253,7 @@ F 3 "" H 13900 8400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D22
+L DIODE D22
 U 1 1 4F0A1AA5
 P 13100 8400
 F 0 "D22" H 13100 8500 40  0000 C CNN
@@ -230,7 +264,7 @@ F 3 "" H 13100 8400 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D23
+L DIODE D23
 U 1 1 4F0A1A77
 P 13500 8400
 F 0 "D23" H 13500 8500 40  0000 C CNN
@@ -241,7 +275,7 @@ F 3 "" H 13500 8400 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D21
+L DIODE D21
 U 1 1 4F0A19C5
 P 12700 8400
 F 0 "D21" H 12700 8500 40  0000 C CNN
@@ -252,7 +286,7 @@ F 3 "" H 12700 8400 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R5
+L R-RESCUE-controller_mega32l R5
 U 1 1 4F0A1882
 P 6800 11200
 F 0 "R5" V 6880 11200 50  0000 C CNN
@@ -265,7 +299,7 @@ $EndComp
 Text Label 6400 12850 1    60   ~ 0
 PWM Pull-Down
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R12
+L R-RESCUE-controller_mega32l R12
 U 1 1 4F0A1823
 P 6800 12500
 F 0 "R12" V 6880 12500 50  0000 C CNN
@@ -276,7 +310,7 @@ F 3 "" H 6800 12500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R11
+L R-RESCUE-controller_mega32l R11
 U 1 1 4F0A17EF
 P 6800 12300
 F 0 "R11" V 6880 12300 50  0000 C CNN
@@ -287,7 +321,7 @@ F 3 "" H 6800 12300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R6
+L R-RESCUE-controller_mega32l R6
 U 1 1 4F0A17A5
 P 6800 11350
 F 0 "R6" V 6880 11350 50  0000 C CNN
@@ -301,7 +335,7 @@ Text Notes 7300 13250 0    60   ~ 0
 PWM Output
 Text Notes 11450 11350 1    60   ~ 0
 Pull-Up Resistor
-Text Notes 12450 10100 0    60   ~ 0
+Text Notes 12550 10100 0    60   ~ 0
 RS-485 Interface
 Text Label 8000 9250 0    60   ~ 0
 GPIO_6
@@ -330,7 +364,7 @@ Entry Wire Line
 Text Notes 7100 7200 0    60   ~ 0
 ADC 8-channel\ninput
 $Comp
-L controller_mega32l-rescue:DGND #PWR07
+L DGND #PWR07
 U 1 1 4F09B54A
 P 8400 12150
 F 0 "#PWR07" H 8400 12150 40  0001 C CNN
@@ -341,7 +375,7 @@ F 3 "" H 8400 12150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R14
+L R-RESCUE-controller_mega32l R14
 U 1 1 4F09B501
 P 8400 11800
 F 0 "R14" V 8480 11800 50  0000 C CNN
@@ -352,7 +386,7 @@ F 3 "" H 8400 11800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:CONN_3X2 P3
+L CONN_3X2 P3
 U 1 1 4DC86003
 P 9300 9200
 F 0 "P3" H 9300 9450 50  0000 C CNN
@@ -363,7 +397,7 @@ F 3 "" H 9300 9200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R3
+L R-RESCUE-controller_mega32l R3
 U 1 1 4DC36F62
 P 5000 8250
 F 0 "R3" V 5080 8250 50  0000 C CNN
@@ -374,7 +408,7 @@ F 3 "" H 5000 8250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:C-RESCUE-controller_mega32l C2
+L C-RESCUE-controller_mega32l C2
 U 1 1 4DC36F37
 P 4400 9150
 F 0 "C2" H 4450 9250 50  0000 L CNN
@@ -385,7 +419,7 @@ F 3 "" H 4400 9150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R4
+L R-RESCUE-controller_mega32l R4
 U 1 1 4DC36EFB
 P 5000 9150
 F 0 "R4" V 5080 9150 50  0000 C CNN
@@ -396,7 +430,7 @@ F 3 "" H 5000 9150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R13
+L R-RESCUE-controller_mega32l R13
 U 1 1 4DC36CF6
 P 8150 10750
 F 0 "R13" V 8230 10750 50  0000 C CNN
@@ -407,7 +441,7 @@ F 3 "" H 8150 10750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:+5VD #PWR08
+L +5VD #PWR08
 U 1 1 4DC2DE75
 P 10650 8200
 F 0 "#PWR08" H 10650 8150 20  0001 C CNN
@@ -418,7 +452,7 @@ F 3 "" H 10650 8200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R16
+L R-RESCUE-controller_mega32l R16
 U 1 1 4DC2DDBE
 P 8850 8550
 F 0 "R16" V 8930 8550 50  0000 C CNN
@@ -429,7 +463,7 @@ F 3 "" H 8850 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R15
+L R-RESCUE-controller_mega32l R15
 U 1 1 4DC2DDBA
 P 8700 8550
 F 0 "R15" V 8780 8550 50  0000 C CNN
@@ -440,7 +474,7 @@ F 3 "" H 8700 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R18
+L R-RESCUE-controller_mega32l R18
 U 1 1 4DC2DDB3
 P 9400 8550
 F 0 "R18" V 9480 8550 50  0000 C CNN
@@ -451,7 +485,7 @@ F 3 "" H 9400 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R21
+L R-RESCUE-controller_mega32l R21
 U 1 1 4DC2DDA9
 P 9900 8950
 F 0 "R21" V 9980 8950 50  0000 C CNN
@@ -462,7 +496,7 @@ F 3 "" H 9900 8950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R22
+L R-RESCUE-controller_mega32l R22
 U 1 1 4DC2DD9E
 P 10100 8950
 F 0 "R22" V 10180 8950 50  0000 C CNN
@@ -473,7 +507,7 @@ F 3 "" H 10100 8950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R24
+L R-RESCUE-controller_mega32l R24
 U 1 1 4DC2DD9A
 P 10300 8950
 F 0 "R24" V 10380 8950 50  0000 C CNN
@@ -484,7 +518,7 @@ F 3 "" H 10300 8950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R28
+L R-RESCUE-controller_mega32l R28
 U 1 1 4DC2DCB6
 P 10500 8950
 F 0 "R28" V 10580 8950 50  0000 C CNN
@@ -495,7 +529,7 @@ F 3 "" H 10500 8950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:+5VD #PWR09
+L +5VD #PWR09
 U 1 1 4DC2DC13
 P 11600 9200
 F 0 "#PWR09" H 11600 9150 20  0001 C CNN
@@ -506,7 +540,7 @@ F 3 "" H 11600 9200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR010
+L DGND #PWR010
 U 1 1 4DC2DBDA
 P 11700 10100
 F 0 "#PWR010" H 11700 10100 40  0001 C CNN
@@ -517,7 +551,7 @@ F 3 "" H 11700 10100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:CONN_5X2 P4
+L CONN_5X2 P4
 U 1 1 4DC2DAF5
 P 11100 9550
 F 0 "P4" H 11100 9850 60  0000 C CNN
@@ -528,7 +562,7 @@ F 3 "" H 11100 9550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D12
+L DIODE D12
 U 1 1 4DC1CEB4
 P 11050 7700
 F 0 "D12" H 11050 7800 40  0000 C CNN
@@ -539,7 +573,7 @@ F 3 "" H 11050 7700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D11
+L DIODE D11
 U 1 1 4DC1CEAF
 P 10750 7700
 F 0 "D11" H 10750 7800 40  0000 C CNN
@@ -550,7 +584,7 @@ F 3 "" H 10750 7700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D10
+L DIODE D10
 U 1 1 4DC1CEAC
 P 10450 7700
 F 0 "D10" H 10450 7800 40  0000 C CNN
@@ -561,7 +595,7 @@ F 3 "" H 10450 7700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D8
+L DIODE D8
 U 1 1 4DC1CEA7
 P 10150 7700
 F 0 "D8" H 10150 7800 40  0000 C CNN
@@ -572,7 +606,7 @@ F 3 "" H 10150 7700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D7
+L DIODE D7
 U 1 1 4DC1CEA4
 P 9850 7700
 F 0 "D7" H 9850 7800 40  0000 C CNN
@@ -583,7 +617,7 @@ F 3 "" H 9850 7700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D4
+L DIODE D4
 U 1 1 4DC1CE9D
 P 9250 7700
 F 0 "D4" H 9250 7800 40  0000 C CNN
@@ -594,7 +628,7 @@ F 3 "" H 9250 7700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D5
+L DIODE D5
 U 1 1 4DC1CE91
 P 9550 7700
 F 0 "D5" H 9550 7800 40  0000 C CNN
@@ -605,7 +639,7 @@ F 3 "" H 9550 7700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D2
+L DIODE D2
 U 1 1 4DC1CE82
 P 8950 7700
 F 0 "D2" H 8950 7800 40  0000 C CNN
@@ -616,7 +650,7 @@ F 3 "" H 8950 7700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR011
+L DGND #PWR011
 U 1 1 4DC1CBAF
 P 6450 12950
 F 0 "#PWR011" H 6450 12950 40  0001 C CNN
@@ -627,7 +661,7 @@ F 3 "" H 6450 12950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R10
+L R-RESCUE-controller_mega32l R10
 U 1 1 4DC1CAC5
 P 6800 12100
 F 0 "R10" V 6880 12100 50  0000 C CNN
@@ -638,7 +672,7 @@ F 3 "" H 6800 12100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R9
+L R-RESCUE-controller_mega32l R9
 U 1 1 4DC1CABF
 P 6800 11900
 F 0 "R9" V 6880 11900 50  0000 C CNN
@@ -649,7 +683,7 @@ F 3 "" H 6800 11900 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R8
+L R-RESCUE-controller_mega32l R8
 U 1 1 4DC1CABA
 P 6800 11700
 F 0 "R8" V 6880 11700 50  0000 C CNN
@@ -660,7 +694,7 @@ F 3 "" H 6800 11700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R7
+L R-RESCUE-controller_mega32l R7
 U 1 1 4DC1CAA5
 P 6800 11500
 F 0 "R7" V 6880 11500 50  0000 C CNN
@@ -671,7 +705,7 @@ F 3 "" H 6800 11500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR012
+L DGND #PWR012
 U 1 1 4DC1C972
 P 5000 9700
 F 0 "#PWR012" H 5000 9700 40  0001 C CNN
@@ -682,7 +716,7 @@ F 3 "" H 5000 9700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:C-RESCUE-controller_mega32l C3
+L C-RESCUE-controller_mega32l C3
 U 1 1 4DC1C956
 P 4700 9150
 F 0 "C3" H 4750 9250 50  0000 L CNN
@@ -693,7 +727,7 @@ F 3 "" H 4700 9150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R17
+L R-RESCUE-controller_mega32l R17
 U 1 1 4DBDEDB1
 P 9250 4700
 F 0 "R17" V 9330 4700 50  0000 C CNN
@@ -704,7 +738,7 @@ F 3 "" H 9250 4700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R19
+L R-RESCUE-controller_mega32l R19
 U 1 1 4DBDEDA4
 P 9550 4900
 F 0 "R19" V 9630 4900 50  0000 C CNN
@@ -715,7 +749,7 @@ F 3 "" H 9550 4900 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R20
+L R-RESCUE-controller_mega32l R20
 U 1 1 4DBDED9F
 P 9850 5100
 F 0 "R20" V 9930 5100 50  0000 C CNN
@@ -726,7 +760,7 @@ F 3 "" H 9850 5100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R23
+L R-RESCUE-controller_mega32l R23
 U 1 1 4DBDED9A
 P 10150 5300
 F 0 "R23" V 10230 5300 50  0000 C CNN
@@ -737,7 +771,7 @@ F 3 "" H 10150 5300 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R25
+L R-RESCUE-controller_mega32l R25
 U 1 1 4DBDED92
 P 10450 5500
 F 0 "R25" V 10530 5500 50  0000 C CNN
@@ -748,7 +782,7 @@ F 3 "" H 10450 5500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R29
+L R-RESCUE-controller_mega32l R29
 U 1 1 4DBDED8B
 P 10750 5700
 F 0 "R29" V 10830 5700 50  0000 C CNN
@@ -759,7 +793,7 @@ F 3 "" H 10750 5700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R30
+L R-RESCUE-controller_mega32l R30
 U 1 1 4DBDED82
 P 11050 5900
 F 0 "R30" V 11130 5900 50  0000 C CNN
@@ -770,7 +804,7 @@ F 3 "" H 11050 5900 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R32
+L R-RESCUE-controller_mega32l R32
 U 1 1 4DBDED77
 P 11350 6100
 F 0 "R32" V 11430 6100 50  0000 C CNN
@@ -781,7 +815,7 @@ F 3 "" H 11350 6100 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR013
+L DGND #PWR013
 U 1 1 4DBDEAFA
 P 12150 8100
 F 0 "#PWR013" H 12150 8100 40  0001 C CNN
@@ -792,7 +826,7 @@ F 3 "" H 12150 8100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:ZENER-RESCUE-controller_mega32l D19
+L ZENER-RESCUE-controller_mega32l D19
 U 1 1 4DBDEAA3
 P 12150 7700
 F 0 "D19" H 12150 7800 50  0000 C CNN
@@ -811,7 +845,7 @@ Grounds align (comparison) line
 Text Label 12800 12800 1    60   ~ 0
 Pull-Down Resisitor
 $Comp
-L controller_mega32l-rescue:+5VD #PWR014
+L +5VD #PWR014
 U 1 1 4DBDE5E9
 P 11200 10650
 F 0 "#PWR014" H 11200 10600 20  0001 C CNN
@@ -822,7 +856,7 @@ F 3 "" H 11200 10650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R31
+L R-RESCUE-controller_mega32l R31
 U 1 1 4DBDE5D8
 P 11200 11000
 F 0 "R31" V 11280 11000 50  0000 C CNN
@@ -833,7 +867,7 @@ F 3 "" H 11200 11000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R33
+L R-RESCUE-controller_mega32l R33
 U 1 1 4DBDE50D
 P 12900 12350
 F 0 "R33" V 12980 12350 50  0000 C CNN
@@ -844,7 +878,7 @@ F 3 "" H 12900 12350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R34
+L R-RESCUE-controller_mega32l R34
 U 1 1 4DBDE4EF
 P 13200 12000
 F 0 "R34" V 13280 12000 50  0000 C CNN
@@ -855,7 +889,7 @@ F 3 "" H 13200 12000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR015
+L DGND #PWR015
 U 1 1 4DBDE1AC
 P 12300 13100
 F 0 "#PWR015" H 12300 13100 40  0001 C CNN
@@ -866,7 +900,7 @@ F 3 "" H 12300 13100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D18
+L DIODE D18
 U 1 1 4DBDDF39
 P 12050 11950
 F 0 "D18" H 12050 12050 40  0000 C CNN
@@ -877,7 +911,7 @@ F 3 "" H 12050 11950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DIODE D13
+L DIODE D13
 U 1 1 4DBDDF26
 P 11150 11950
 F 0 "D13" H 11150 12050 40  0000 C CNN
@@ -888,7 +922,7 @@ F 3 "" H 11150 11950 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L controller_mega32l-rescue:ZENER-RESCUE-controller_mega32l D16
+L ZENER-RESCUE-controller_mega32l D16
 U 1 1 4DBDDEA9
 P 11350 12700
 F 0 "D16" H 11350 12800 50  0000 C CNN
@@ -899,7 +933,7 @@ F 3 "" H 11350 12700 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:ZENER-RESCUE-controller_mega32l D17
+L ZENER-RESCUE-controller_mega32l D17
 U 1 1 4DBDDEA1
 P 11750 12700
 F 0 "D17" H 11750 12800 50  0000 C CNN
@@ -910,7 +944,7 @@ F 3 "" H 11750 12700 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R27
+L R-RESCUE-controller_mega32l R27
 U 1 1 4DBDD7C0
 P 10450 11650
 F 0 "R27" V 10530 11650 50  0000 C CNN
@@ -921,7 +955,7 @@ F 3 "" H 10450 11650 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R26
+L R-RESCUE-controller_mega32l R26
 U 1 1 4DBDD7B0
 P 10450 11450
 F 0 "R26" V 10530 11450 50  0000 C CNN
@@ -932,7 +966,7 @@ F 3 "" H 10450 11450 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:MAX481CPA IC2
+L MAX481CPA IC2
 U 1 1 4DBDD5E3
 P 9550 11550
 F 0 "IC2" H 9150 12100 50  0000 L BNN
@@ -943,7 +977,7 @@ F 3 "" H 9550 11550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:+5VD #PWR016
+L +5VD #PWR016
 U 1 1 4DBDA7A8
 P 4200 6550
 F 0 "#PWR016" H 4200 6500 20  0001 C CNN
@@ -954,7 +988,7 @@ F 3 "" H 4200 6550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:ZENER-RESCUE-controller_mega32l D1
+L ZENER-RESCUE-controller_mega32l D1
 U 1 1 4DB4A759
 P 3500 6850
 F 0 "D1" H 3500 6950 50  0000 C CNN
@@ -965,7 +999,7 @@ F 3 "" H 3500 6850 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR017
+L DGND #PWR017
 U 1 1 4DB4A6CF
 P 4850 6550
 F 0 "#PWR017" H 4850 6550 40  0001 C CNN
@@ -976,7 +1010,7 @@ F 3 "" H 4850 6550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:C-RESCUE-controller_mega32l C5
+L C-RESCUE-controller_mega32l C5
 U 1 1 4DB4A5EF
 P 5250 5550
 F 0 "C5" H 5300 5650 50  0000 L CNN
@@ -987,7 +1021,7 @@ F 3 "" H 5250 5550 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:C-RESCUE-controller_mega32l C8
+L C-RESCUE-controller_mega32l C8
 U 1 1 4DB4A5E8
 P 5250 6450
 F 0 "C8" H 5300 6550 50  0000 L CNN
@@ -998,7 +1032,7 @@ F 3 "" H 5250 6450 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:C-RESCUE-controller_mega32l C7
+L C-RESCUE-controller_mega32l C7
 U 1 1 4DB4A5E3
 P 5250 6150
 F 0 "C7" H 5300 6250 50  0000 L CNN
@@ -1009,7 +1043,7 @@ F 3 "" H 5250 6150 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:C-RESCUE-controller_mega32l C6
+L C-RESCUE-controller_mega32l C6
 U 1 1 4DB4A5D2
 P 5250 5850
 F 0 "C6" H 5300 5950 50  0000 L CNN
@@ -1020,7 +1054,7 @@ F 3 "" H 5250 5850 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR018
+L DGND #PWR018
 U 1 1 4DB4A4D1
 P 4750 7950
 F 0 "#PWR018" H 4750 7950 40  0001 C CNN
@@ -1031,7 +1065,7 @@ F 3 "" H 4750 7950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R2
+L R-RESCUE-controller_mega32l R2
 U 1 1 4DB328C1
 P 4750 7100
 F 0 "R2" V 4830 7100 50  0000 C CNN
@@ -1042,7 +1076,7 @@ F 3 "" H 4750 7100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:C-RESCUE-controller_mega32l C4
+L C-RESCUE-controller_mega32l C4
 U 1 1 4DB328AF
 P 4750 7700
 F 0 "C4" H 4800 7800 50  0000 L CNN
@@ -1053,7 +1087,7 @@ F 3 "" H 4750 7700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR019
+L DGND #PWR019
 U 1 1 4DB3273F
 P 3400 7400
 F 0 "#PWR019" H 3400 7400 40  0001 C CNN
@@ -1064,7 +1098,7 @@ F 3 "" H 3400 7400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:C-RESCUE-controller_mega32l C1
+L C-RESCUE-controller_mega32l C1
 U 1 1 4DB326F1
 P 3900 7000
 F 0 "C1" H 3950 7100 50  0000 L CNN
@@ -1075,7 +1109,7 @@ F 3 "" H 3900 7000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:R-RESCUE-controller_mega32l R1
+L R-RESCUE-controller_mega32l R1
 U 1 1 4DB3253B
 P 3500 6100
 F 0 "R1" V 3580 6100 50  0000 C CNN
@@ -1086,7 +1120,7 @@ F 3 "" H 3500 6100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:NPN Q1
+L NPN Q1
 U 1 1 4DB324F9
 P 3800 6450
 F 0 "Q1" H 3800 6300 50  0000 R CNN
@@ -1097,7 +1131,7 @@ F 3 "" H 3800 6450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:+24V #PWR020
+L +24V #PWR020
 U 1 1 4DB1B222
 P 3500 5700
 F 0 "#PWR020" H 3500 5650 20  0001 C CNN
@@ -1108,7 +1142,7 @@ F 3 "" H 3500 5700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:RJ45 J1
+L RJ45 J1
 U 1 1 4DB1B186
 P 12850 10750
 F 0 "J1" H 13050 11250 60  0000 C CNN
@@ -1119,7 +1153,7 @@ F 3 "" H 12850 10750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:DGND #PWR021
+L DGND #PWR021
 U 1 1 4DB1ABC7
 P 5850 11250
 F 0 "#PWR021" H 5850 11250 40  0001 C CNN
@@ -1130,7 +1164,7 @@ F 3 "" H 5850 11250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:ATMEGA32-A IC1
+L ATMEGA32-A IC1
 U 1 1 4DB074D9
 P 6200 9150
 F 0 "IC1" H 5400 10980 50  0000 L BNN
@@ -1141,7 +1175,7 @@ F 3 "" H 6200 9150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:D_Schottky_x2_KCom_AAK D20
+L D_Schottky_x2_KCom_AAK D20
 U 1 1 5688E1FC
 P 12700 7200
 F 0 "D20" H 12750 7100 50  0000 C CNN
@@ -1152,7 +1186,7 @@ F 3 "" H 12700 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:D_Schottky_x2_KCom_AAK D24
+L D_Schottky_x2_KCom_AAK D24
 U 1 1 5688E327
 P 13600 7200
 F 0 "D24" H 13650 7100 50  0000 C CNN
@@ -1163,7 +1197,7 @@ F 3 "" H 13600 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:D_Schottky_x2_KCom_AAK D27
+L D_Schottky_x2_KCom_AAK D27
 U 1 1 5688E42E
 P 14500 7200
 F 0 "D27" H 14550 7100 50  0000 C CNN
@@ -1175,7 +1209,7 @@ F 3 "" H 14500 7200 50  0000 C CNN
 $EndComp
 Connection ~ 4850 5550
 Wire Wire Line
-	3900 5550 4850 5550
+	3900 5550 5050 5550
 Wire Wire Line
 	3900 5550 3900 5500
 Wire Wire Line
@@ -1189,13 +1223,13 @@ Connection ~ 6450 12650
 Wire Wire Line
 	6450 12650 7100 12650
 Wire Wire Line
-	7300 10750 7300 12300
+	7300 10750 7300 12650
 Wire Wire Line
-	7500 10550 7500 11900
+	7500 10550 7500 12650
 Wire Wire Line
-	7600 10450 7600 11700
+	7600 10450 7600 12650
 Wire Wire Line
-	7800 9850 7800 11350
+	7800 9850 7800 12650
 Wire Wire Line
 	11700 5500 11700 5700
 Wire Wire Line
@@ -1203,11 +1237,11 @@ Wire Wire Line
 Wire Bus Line
 	12000 10300 8500 10300
 Wire Wire Line
-	12100 9200 12900 9200
+	12100 9200 14900 9200
 Wire Wire Line
-	12100 9000 13700 9000
+	12100 9000 14900 9000
 Wire Wire Line
-	12100 8800 14500 8800
+	12100 8800 14900 8800
 Connection ~ 14100 8900
 Connection ~ 13300 9100
 Connection ~ 12700 9300
@@ -1258,9 +1292,13 @@ Wire Wire Line
 Wire Wire Line
 	7900 8750 7900 8650
 Wire Wire Line
+	7900 8650 8600 8650
+Wire Wire Line
 	7200 8550 7500 8550
 Wire Wire Line
 	7500 8550 7500 8450
+Wire Wire Line
+	7500 8450 8600 8450
 Wire Wire Line
 	8600 8250 7250 8250
 Wire Wire Line
@@ -1284,7 +1322,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 9350 7900 9350
 Wire Wire Line
-	10300 9200 10300 9450
+	10300 9200 10300 9650
 Wire Wire Line
 	10300 9650 7200 9650
 Wire Wire Line
@@ -1308,9 +1346,9 @@ Connection ~ 9700 8250
 Wire Wire Line
 	9700 8250 9700 9050
 Wire Wire Line
-	7750 9150 8700 9150
+	7750 9150 8900 9150
 Wire Wire Line
-	7800 9050 8850 9050
+	7800 9050 8900 9050
 Wire Wire Line
 	7200 9050 7750 9050
 Wire Wire Line
@@ -1323,13 +1361,13 @@ Connection ~ 5000 9500
 Wire Wire Line
 	4400 9350 4400 9500
 Wire Wire Line
-	4400 9500 4700 9500
+	4400 9500 5000 9500
 Wire Wire Line
 	4700 8950 4700 8650
 Wire Wire Line
-	5000 8500 5000 8650
+	5000 8500 5000 8900
 Wire Wire Line
-	4000 7450 4750 7450
+	4000 7450 5200 7450
 Wire Wire Line
 	4000 13700 8150 13700
 Wire Wire Line
@@ -1350,11 +1388,11 @@ Connection ~ 10100 9550
 Wire Wire Line
 	10100 9200 10100 9550
 Wire Wire Line
-	7200 9550 10100 9550
+	7200 9550 10700 9550
 Wire Wire Line
 	11600 9450 11500 9450
 Wire Wire Line
-	11700 9350 11700 9750
+	11700 9350 11700 10100
 Wire Wire Line
 	11700 9350 11500 9350
 Wire Wire Line
@@ -1381,7 +1419,7 @@ Connection ~ 9550 5100
 Wire Wire Line
 	9550 5100 9550 7500
 Wire Wire Line
-	8100 5100 9400 5100
+	8100 5100 9600 5100
 Connection ~ 8950 4700
 Wire Wire Line
 	8950 4700 8950 7500
@@ -1392,16 +1430,16 @@ Wire Wire Line
 	6450 11500 6550 11500
 Connection ~ 10900 6100
 Wire Wire Line
-	8600 6100 10900 6100
+	8600 6100 11100 6100
 Connection ~ 10300 5700
 Wire Wire Line
-	8400 5700 10300 5700
+	8400 5700 10500 5700
 Connection ~ 9700 5300
 Wire Wire Line
-	8200 5300 9700 5300
+	8200 5300 9900 5300
 Connection ~ 9100 4900
 Wire Wire Line
-	8000 4900 9100 4900
+	8000 4900 9300 4900
 Wire Wire Line
 	10600 5900 10600 6450
 Wire Wire Line
@@ -1435,7 +1473,7 @@ Wire Wire Line
 	13200 11200 13200 11750
 Connection ~ 12350 11650
 Wire Wire Line
-	10700 11650 11200 11650
+	10700 11650 12800 11650
 Wire Wire Line
 	12800 11650 12800 11200
 Connection ~ 10850 11950
@@ -1445,7 +1483,7 @@ Connection ~ 12350 11950
 Wire Wire Line
 	12250 11950 12350 11950
 Wire Wire Line
-	11350 11950 11750 11950
+	11350 11950 11850 11950
 Wire Wire Line
 	10200 11650 10050 11650
 Wire Wire Line
@@ -1487,27 +1525,27 @@ Wire Wire Line
 	5800 6800 5900 6800
 Connection ~ 6000 6750
 Wire Wire Line
-	6000 6750 6000 6900
+	6000 6750 6000 7150
 Wire Wire Line
-	6300 6750 6300 7050
+	6300 6750 6300 7150
 Wire Wire Line
-	3900 6750 4200 6750
+	3900 6750 6300 6750
 Connection ~ 4750 6750
 Wire Wire Line
 	4750 6750 4750 6850
 Wire Wire Line
-	4750 7350 4750 7450
+	4750 7350 4750 7500
 Wire Wire Line
 	3400 7400 3400 7200
 Wire Wire Line
-	3400 7200 3500 7200
+	3400 7200 3900 7200
 Wire Wire Line
-	3900 6650 3900 6750
+	3900 6650 3900 6800
 Connection ~ 3500 5750
 Wire Wire Line
-	3900 5750 3900 6150
+	3900 5750 3900 6250
 Wire Wire Line
-	3500 5750 3700 5750
+	3500 5750 3900 5750
 Connection ~ 3500 6450
 Wire Wire Line
 	3600 6450 3500 6450
@@ -1517,7 +1555,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 11250 5850 11200
 Wire Wire Line
-	5850 11200 6050 11200
+	5850 11200 6350 11200
 Wire Wire Line
 	6350 11200 6350 11150
 Wire Wire Line
@@ -1527,16 +1565,16 @@ Wire Wire Line
 	6050 11200 6050 11150
 Connection ~ 6050 11200
 Wire Wire Line
-	3500 5700 3500 5750
+	3500 5700 3500 5850
 Connection ~ 3900 6750
 Connection ~ 4750 7450
 Wire Wire Line
 	4750 7900 4750 7950
 Wire Wire Line
-	5900 6750 5900 6800
+	5900 6750 5900 7150
 Connection ~ 5900 6750
 Wire Wire Line
-	6100 6750 6100 6950
+	6100 6750 6100 7150
 Connection ~ 6100 6750
 Wire Wire Line
 	5800 5550 5450 5550
@@ -1548,12 +1586,12 @@ Wire Wire Line
 	5600 6950 6100 6950
 Connection ~ 6100 6950
 Wire Wire Line
-	4850 5550 4850 5850
+	4850 5550 4850 6550
 Wire Wire Line
 	4850 6150 5050 6150
 Connection ~ 4850 6150
 Wire Wire Line
-	3500 6350 3500 6450
+	3500 6350 3500 6650
 Wire Wire Line
 	9050 11250 8700 11250
 Wire Wire Line
@@ -1566,15 +1604,15 @@ Wire Wire Line
 	11750 12500 11750 11950
 Connection ~ 11750 11950
 Wire Wire Line
-	10700 11450 10850 11450
+	10700 11450 12900 11450
 Connection ~ 10850 11450
 Wire Wire Line
-	12900 11200 12900 11450
+	12900 11200 12900 12100
 Connection ~ 12900 11450
 Wire Wire Line
 	13200 13000 13200 12250
 Wire Wire Line
-	11350 13000 11750 13000
+	11350 13000 13200 13000
 Wire Wire Line
 	11750 12900 11750 13000
 Connection ~ 11750 13000
@@ -1606,14 +1644,14 @@ Wire Wire Line
 Wire Wire Line
 	10300 5700 10300 7000
 Wire Wire Line
-	7900 4700 8800 4700
+	7900 4700 9000 4700
 Connection ~ 8800 4700
 Connection ~ 9400 5100
 Wire Wire Line
-	8300 5500 10000 5500
+	8300 5500 10200 5500
 Connection ~ 10000 5500
 Wire Wire Line
-	8500 5900 10600 5900
+	8500 5900 10800 5900
 Connection ~ 10600 5900
 Connection ~ 5000 8650
 Connection ~ 5000 6750
@@ -1650,9 +1688,9 @@ Wire Wire Line
 	11500 9750 11700 9750
 Connection ~ 11700 9750
 Wire Wire Line
-	7200 9750 9900 9750
+	7200 9750 10700 9750
 Wire Wire Line
-	8700 9350 10500 9350
+	8700 9350 10700 9350
 Wire Wire Line
 	8700 9450 8700 9350
 Wire Wire Line
@@ -1670,17 +1708,17 @@ Wire Wire Line
 Wire Wire Line
 	11550 9550 11550 9950
 Wire Wire Line
-	11550 9950 8800 9950
+	11550 9950 8150 9950
 Wire Wire Line
 	8150 9950 8150 10500
 Wire Wire Line
-	5000 9400 5000 9500
+	5000 9400 5000 9700
 Wire Wire Line
 	5000 6750 5000 8000
 Wire Wire Line
 	4400 8950 4400 8650
 Wire Wire Line
-	4400 8650 4700 8650
+	4400 8650 5200 8650
 Connection ~ 4700 8650
 Wire Wire Line
 	4700 9350 4700 9500
@@ -1694,7 +1732,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 9150 9800 8900
 Wire Wire Line
-	9800 8900 9400 8900
+	9800 8900 7850 8900
 Wire Wire Line
 	8900 9250 8800 9250
 Wire Wire Line
@@ -1712,11 +1750,11 @@ Wire Wire Line
 	9800 9250 9700 9250
 Connection ~ 8700 9150
 Wire Wire Line
-	8400 11450 8900 11450
+	8400 11450 9050 11450
 Wire Wire Line
 	7200 10350 8400 10350
 Wire Wire Line
-	8400 10350 8400 11450
+	8400 10350 8400 11550
 Connection ~ 8400 11450
 Wire Wire Line
 	8900 11650 8900 11450
@@ -1736,7 +1774,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 8300 8700 8250
 Wire Wire Line
-	8700 8250 8850 8250
+	8700 8250 10650 8250
 Connection ~ 8850 8250
 Wire Wire Line
 	9800 4900 9800 4800
@@ -1754,10 +1792,16 @@ Wire Wire Line
 	11700 5400 11600 5400
 Wire Wire Line
 	11600 5400 11600 6100
+Wire Bus Line
+	8500 10300 8500 8350
+Wire Wire Line
+	7350 8350 8600 8350
 Wire Wire Line
 	7350 8350 7350 8450
 Wire Wire Line
 	7350 8450 7200 8450
+Wire Wire Line
+	7700 8550 8600 8550
 Wire Wire Line
 	7700 8550 7700 8650
 Wire Wire Line
@@ -1768,7 +1812,7 @@ Connection ~ 11350 7400
 Wire Wire Line
 	6550 11200 6450 11200
 Wire Wire Line
-	6450 11200 6450 11350
+	6450 11200 6450 12950
 Connection ~ 6450 11500
 Wire Wire Line
 	6450 12300 6550 12300
@@ -1788,7 +1832,7 @@ Connection ~ 7800 11350
 Wire Wire Line
 	14700 8000 14700 8200
 Wire Wire Line
-	8950 8000 9250 8000
+	8950 8000 14700 8000
 Wire Wire Line
 	13900 8000 13900 8200
 Connection ~ 13900 8000
@@ -1807,33 +1851,35 @@ Wire Wire Line
 	12900 7700 12900 9200
 Wire Wire Line
 	12700 9300 12700 8600
+Wire Bus Line
+	12000 8900 12000 10300
 Connection ~ 12900 9200
 Connection ~ 13700 9000
 Connection ~ 14500 8800
 Wire Wire Line
-	12100 8900 14100 8900
+	12100 8900 14900 8900
 Wire Wire Line
-	12100 9100 13300 9100
+	12100 9100 14900 9100
 Wire Wire Line
-	12100 9300 12550 9300
+	12100 9300 14900 9300
 Wire Wire Line
 	14900 9400 14900 9600
 Wire Wire Line
 	11700 4600 11700 4450
 Wire Wire Line
-	7900 9350 7900 11200
+	7900 9350 7900 12650
 Wire Wire Line
-	7700 9950 7700 11500
+	7700 9950 7700 12650
 Wire Wire Line
-	7400 10650 7400 12100
+	7400 10650 7400 12650
 Wire Wire Line
-	7200 10850 7200 12500
+	7200 10850 7200 12650
 Wire Wire Line
 	8000 12650 8000 12500
 Wire Wire Line
 	4500 6100 4500 6450
 Wire Wire Line
-	4500 6450 4850 6450
+	4500 6450 5050 6450
 Wire Wire Line
 	4300 6100 4300 6150
 Wire Wire Line
@@ -1866,7 +1912,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 7700 14800 7200
 $Comp
-L controller_mega32l-rescue:D_Schottky_x2_KCom_AAK D3
+L D_Schottky_x2_KCom_AAK D3
 U 1 1 56892B69
 P 9000 7200
 F 0 "D3" H 9050 7100 50  0000 C CNN
@@ -1885,7 +1931,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 7000 9300 7200
 $Comp
-L controller_mega32l-rescue:D_Schottky_x2_KCom_AAK D6
+L D_Schottky_x2_KCom_AAK D6
 U 1 1 56893E8A
 P 9700 7200
 F 0 "D6" H 9750 7100 50  0000 C CNN
@@ -1896,7 +1942,7 @@ F 3 "" H 9700 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:D_Schottky_x2_KCom_AAK D9
+L D_Schottky_x2_KCom_AAK D9
 U 1 1 56894111
 P 10450 7200
 F 0 "D9" H 10500 7100 50  0000 C CNN
@@ -1907,7 +1953,7 @@ F 3 "" H 10450 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L controller_mega32l-rescue:D_Schottky_x2_KCom_AAK D14
+L D_Schottky_x2_KCom_AAK D14
 U 1 1 568941F0
 P 11350 7200
 F 0 "D14" H 11400 7100 50  0000 C CNN
@@ -1969,11 +2015,11 @@ Connection ~ 12150 7400
 Wire Wire Line
 	12150 7400 12150 7500
 Wire Wire Line
-	12150 7900 12150 8000
+	12150 7900 12150 8100
 Wire Wire Line
-	9000 7400 9700 7400
+	9000 7400 14500 7400
 $Comp
-L controller_mega32l-rescue:D_Schottky_x2_KCom_AAK D15
+L D_Schottky_x2_KCom_AAK D15
 U 1 1 56885D5C
 P 11350 12200
 F 0 "D15" H 11400 12100 50  0000 C CNN
@@ -1984,7 +2030,7 @@ F 3 "" H 11350 12200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10850 11450 10850 11950
+	10850 11450 10850 12200
 Wire Wire Line
 	10850 12200 11050 12200
 Wire Wire Line
@@ -1993,352 +2039,7 @@ Wire Wire Line
 	11350 12500 11350 12400
 Wire Wire Line
 	11650 12200 12350 12200
+Connection ~ 12350 12200
 Wire Wire Line
-	12350 12200 12350 11950
-Wire Wire Line
-	4850 5550 5050 5550
-Wire Wire Line
-	4400 6750 4750 6750
-Wire Wire Line
-	6450 12650 6450 12950
-Wire Wire Line
-	14100 8900 14300 8900
-Wire Wire Line
-	13300 9100 13500 9100
-Wire Wire Line
-	12700 9300 14900 9300
-Wire Wire Line
-	13100 9200 14900 9200
-Wire Wire Line
-	13500 9100 14900 9100
-Wire Wire Line
-	13900 9000 14900 9000
-Wire Wire Line
-	14300 8900 14900 8900
-Wire Wire Line
-	14700 8800 14900 8800
-Wire Wire Line
-	12700 8000 13100 8000
-Wire Wire Line
-	13500 8000 13900 8000
-Wire Wire Line
-	14300 8000 14700 8000
-Wire Wire Line
-	7900 11200 7900 12650
-Wire Wire Line
-	7700 11500 7700 12650
-Wire Wire Line
-	7500 11900 7500 12650
-Wire Wire Line
-	7300 12300 7300 12650
-Wire Wire Line
-	6450 12500 6450 12650
-Wire Wire Line
-	6450 11350 6450 11500
-Wire Wire Line
-	8850 9050 8900 9050
-Wire Wire Line
-	9400 8900 7850 8900
-Wire Wire Line
-	11700 9850 11700 10100
-Wire Wire Line
-	9700 8250 9900 8250
-Wire Wire Line
-	5000 9500 5000 9700
-Wire Wire Line
-	9400 8250 9700 8250
-Wire Wire Line
-	9900 8250 10100 8250
-Wire Wire Line
-	10300 8250 10500 8250
-Wire Wire Line
-	10500 9350 10700 9350
-Wire Wire Line
-	10100 9550 10700 9550
-Wire Wire Line
-	9250 8000 9550 8000
-Wire Wire Line
-	9850 8000 10150 8000
-Wire Wire Line
-	10450 8000 10750 8000
-Wire Wire Line
-	11050 8000 12150 8000
-Wire Wire Line
-	10750 5900 10800 5900
-Wire Wire Line
-	10150 5500 10200 5500
-Wire Wire Line
-	9550 5100 9600 5100
-Wire Wire Line
-	8950 4700 9000 4700
-Wire Wire Line
-	6450 11900 6450 12100
-Wire Wire Line
-	10900 6100 11050 6100
-Wire Wire Line
-	10300 5700 10450 5700
-Wire Wire Line
-	9700 5300 9850 5300
-Wire Wire Line
-	9100 4900 9250 4900
-Wire Wire Line
-	11200 11650 12350 11650
-Wire Wire Line
-	12900 13000 13200 13000
-Wire Wire Line
-	12300 13000 12900 13000
-Wire Wire Line
-	12350 11650 12800 11650
-Wire Wire Line
-	10850 11950 10850 12200
-Wire Wire Line
-	12350 11950 12350 11650
-Wire Wire Line
-	4200 6750 4400 6750
-Wire Wire Line
-	3500 7200 3900 7200
-Wire Wire Line
-	4850 6450 4850 6550
-Wire Wire Line
-	4850 6450 5050 6450
-Wire Wire Line
-	4850 5850 4850 6150
-Wire Wire Line
-	6300 7050 6300 7150
-Wire Wire Line
-	6000 6900 6000 7150
-Wire Wire Line
-	5900 6800 5900 7150
-Wire Wire Line
-	6000 6750 6100 6750
-Wire Wire Line
-	4750 6750 5000 6750
-Wire Wire Line
-	3500 5750 3500 5850
-Wire Wire Line
-	3500 6450 3500 6650
-Wire Wire Line
-	6150 11200 6250 11200
-Wire Wire Line
-	6250 11200 6350 11200
-Wire Wire Line
-	6050 11200 6150 11200
-Wire Wire Line
-	3900 6750 3900 6800
-Wire Wire Line
-	4750 7450 5200 7450
-Wire Wire Line
-	4750 7450 4750 7500
-Wire Wire Line
-	5900 6750 6000 6750
-Wire Wire Line
-	6100 6750 6300 6750
-Wire Wire Line
-	6100 6950 6100 7150
-Wire Wire Line
-	4850 6150 4850 6450
-Wire Wire Line
-	11750 11950 11850 11950
-Wire Wire Line
-	10850 11450 12900 11450
-Wire Wire Line
-	12900 11450 12900 12100
-Wire Wire Line
-	11750 13000 12300 13000
-Wire Wire Line
-	9700 7400 10450 7400
-Wire Wire Line
-	8800 4700 8950 4700
-Wire Wire Line
-	9400 5100 9550 5100
-Wire Wire Line
-	10000 5500 10150 5500
-Wire Wire Line
-	10600 5900 10750 5900
-Wire Wire Line
-	5000 8650 5000 8900
-Wire Wire Line
-	5000 8650 5200 8650
-Wire Wire Line
-	5000 6750 5900 6750
-Wire Wire Line
-	6450 11700 6450 11900
-Wire Wire Line
-	6450 12100 6450 12300
-Wire Wire Line
-	9250 4900 9300 4900
-Wire Wire Line
-	9850 5300 9900 5300
-Wire Wire Line
-	10450 5700 10500 5700
-Wire Wire Line
-	11050 6100 11100 6100
-Wire Wire Line
-	10750 8000 11050 8000
-Wire Wire Line
-	10150 8000 10450 8000
-Wire Wire Line
-	9550 8000 9850 8000
-Wire Wire Line
-	11700 9750 11700 9850
-Wire Wire Line
-	9900 9750 10700 9750
-Wire Wire Line
-	10300 9450 10300 9650
-Wire Wire Line
-	10500 8250 10650 8250
-Wire Wire Line
-	10100 8250 10300 8250
-Wire Wire Line
-	4700 8650 5000 8650
-Wire Wire Line
-	4700 9500 5000 9500
-Wire Wire Line
-	8800 9950 8150 9950
-Wire Wire Line
-	8700 9150 8900 9150
-Wire Wire Line
-	8400 11450 8400 11550
-Wire Wire Line
-	8900 11450 9050 11450
-Wire Wire Line
-	8850 8250 9400 8250
-Wire Wire Line
-	11350 7400 12150 7400
-Wire Wire Line
-	6450 11500 6450 11700
-Wire Wire Line
-	6450 12300 6450 12500
-Wire Wire Line
-	7200 12500 7200 12650
-Wire Wire Line
-	7400 12100 7400 12650
-Wire Wire Line
-	7600 11700 7600 12650
-Wire Wire Line
-	7800 11350 7800 12650
-Wire Wire Line
-	13900 8000 14300 8000
-Wire Wire Line
-	13100 8000 13500 8000
-Wire Wire Line
-	12900 9200 13100 9200
-Wire Wire Line
-	13700 9000 13900 9000
-Wire Wire Line
-	14500 8800 14700 8800
-Wire Wire Line
-	3900 6150 3900 6250
-Wire Wire Line
-	3700 5750 3900 5750
-Wire Wire Line
-	12550 9300 12700 9300
-Wire Wire Line
-	12700 7400 13600 7400
-Wire Wire Line
-	13600 7400 14500 7400
-Wire Wire Line
-	10450 7400 11350 7400
-Wire Wire Line
-	12150 8000 12150 8100
-Wire Wire Line
-	12150 8000 12700 8000
-Wire Wire Line
-	12150 7400 12700 7400
-$Comp
-L CustomLibrary:3xRJ11 J_Network
-U 1 1 5CF90E57
-P 13850 10150
-F 0 "J_Network" H 14875 10165 50  0000 C CNN
-F 1 "3xRJ11" H 14875 10074 50  0000 C CNN
-F 2 "" H 14250 10050 50  0001 C CNN
-F 3 "" H 14250 10050 50  0001 C CNN
-	1    13850 10150
-	1    0    0    -1  
-$EndComp
-Text Notes 14200 10050 0    50   ~ 0
-RS-485 Alternative Interface
-Wire Wire Line
-	12800 11650 14150 11650
-Wire Wire Line
-	14150 11650 14150 10850
-Connection ~ 12800 11650
-Wire Wire Line
-	14950 11650 14950 10850
-Wire Wire Line
-	14150 11650 14950 11650
-Connection ~ 14150 11650
-Wire Wire Line
-	14950 11650 15600 11650
-Wire Wire Line
-	15600 11650 15600 10850
-Connection ~ 14950 11650
-Wire Wire Line
-	12900 11450 14300 11450
-Wire Wire Line
-	14300 11450 14300 10850
-Wire Wire Line
-	14300 11450 14800 11450
-Wire Wire Line
-	14800 11450 14800 10850
-Connection ~ 14300 11450
-Wire Wire Line
-	14800 11450 15450 11450
-Wire Wire Line
-	15450 11450 15450 10850
-Connection ~ 14800 11450
-Wire Wire Line
-	14050 10850 14050 11000
-Wire Wire Line
-	14050 11000 14400 11000
-Wire Wire Line
-	14400 11000 14400 10850
-Wire Wire Line
-	14400 11000 14700 11000
-Wire Wire Line
-	14700 11000 14700 10850
-Connection ~ 14400 11000
-Wire Wire Line
-	14700 11000 15050 11000
-Wire Wire Line
-	15050 11000 15050 10850
-Connection ~ 14700 11000
-Wire Wire Line
-	15050 11000 15350 11000
-Wire Wire Line
-	15350 11000 15350 10850
-Connection ~ 15050 11000
-Wire Wire Line
-	15350 11000 15700 11000
-Wire Wire Line
-	15700 11000 15700 10850
-Connection ~ 15350 11000
-$Comp
-L controller_mega32l-rescue:DGND #PWR?
-U 1 1 5D28F4A1
-P 15950 11150
-F 0 "#PWR?" H 15950 11150 40  0001 C CNN
-F 1 "DGND" H 15950 11217 40  0000 C CNN
-F 2 "" H 15950 11150 60  0000 C CNN
-F 3 "" H 15950 11150 60  0000 C CNN
-	1    15950 11150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15700 11000 15950 11000
-Wire Wire Line
-	15950 11000 15950 11150
-Wire Wire Line
-	7900 8650 8600 8650
-Wire Wire Line
-	7500 8450 8600 8450
-Wire Wire Line
-	7350 8350 8600 8350
-Wire Wire Line
-	7700 8550 8600 8550
-Wire Bus Line
-	12000 8900 12000 10300
-Wire Bus Line
-	8500 8350 8500 10300
-Connection ~ 15700 11000
+	12350 12200 12350 11650
 $EndSCHEMATC

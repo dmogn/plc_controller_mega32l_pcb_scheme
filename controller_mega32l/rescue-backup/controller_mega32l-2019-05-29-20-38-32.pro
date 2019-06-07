@@ -1,6 +1,6 @@
-update=vie 07 jun 2019 17:02:56 -03
+update=mar 28 may 2019 19:41:25 -03
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetITyp=0
@@ -13,13 +13,10 @@ NetType=0
 EquName1=devcms
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=controller_mega32l.net
+LastNetListRead=
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -188,7 +185,7 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=2
+Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
 Enabled=1
@@ -231,7 +228,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.25
+Clearance=0.35
 TrackWidth=0.5
 ViaDiameter=2.54
 ViaDrill=1
@@ -240,3 +237,6 @@ uViaDrill=0.127
 dPairWidth=0.3
 dPairGap=0.25
 dPairViaGap=0.25
+[eeschema]
+version=1
+LibDir=

@@ -1,7 +1,5 @@
 (sym_lib_table
   (lib (name controller_mega32l-rescue)(type Legacy)(uri ${KIPRJMOD}/controller_mega32l-rescue.lib)(options "")(descr ""))
-  (lib (name maxim)(type Legacy)(uri /home/sirius/Projects/OldPortal/fmselectronics/servodriver/hardware/kicadlib/maxim.lib)(options "")(descr ""))
-  (lib (name smd-special)(type Legacy)(uri /home/sirius/Projects/OldPortal/fmselectronics/servodriver/hardware/kicadlib/smd-special.lib)(options "")(descr ""))
-  (lib (name transistor-power)(type Legacy)(uri /home/sirius/Projects/OldPortal/fmselectronics/servodriver/hardware/kicadlib/transistor-power.lib)(options "")(descr ""))
-  (lib (name electrotechnique)(type Legacy)(uri /home/sirius/Projects/OldPortal/fmselectronics/servodriver/hardware/kicadlib/electrotechnique.lib)(options "")(descr ""))
+  (lib (name CustomLibrary)(type Legacy)(uri ${KIPRJMOD}/CustomLibrary.lib)(options "")(descr ""))
+  (lib (name 4p4c)(type Legacy)(uri /home/sirius/temp/4p4c.lib)(options "")(descr ""))
 )
