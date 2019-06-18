@@ -301,7 +301,7 @@ Text Notes 7300 13250 0    60   ~ 0
 PWM Output
 Text Notes 11450 11350 1    60   ~ 0
 Pull-Up Resistor
-Text Notes 12450 10100 0    60   ~ 0
+Text Notes 12450 10050 0    60   ~ 0
 RS-485 Interface
 Text Label 8000 9250 0    60   ~ 0
 GPIO_6
@@ -2256,7 +2256,7 @@ F 3 "" H 14250 10050 50  0001 C CNN
 	1    13850 10150
 	1    0    0    -1  
 $EndComp
-Text Notes 14200 10050 0    50   ~ 0
+Text Notes 14350 10050 0    50   ~ 0
 RS-485 Alternative Interface
 Wire Wire Line
 	12800 11650 14150 11650
@@ -2264,29 +2264,9 @@ Wire Wire Line
 	14150 11650 14150 10850
 Connection ~ 12800 11650
 Wire Wire Line
-	14950 11650 14950 10850
-Wire Wire Line
-	14150 11650 14950 11650
-Connection ~ 14150 11650
-Wire Wire Line
-	14950 11650 15600 11650
-Wire Wire Line
-	15600 11650 15600 10850
-Connection ~ 14950 11650
-Wire Wire Line
 	12900 11450 14300 11450
 Wire Wire Line
 	14300 11450 14300 10850
-Wire Wire Line
-	14300 11450 14800 11450
-Wire Wire Line
-	14800 11450 14800 10850
-Connection ~ 14300 11450
-Wire Wire Line
-	14800 11450 15450 11450
-Wire Wire Line
-	15450 11450 15450 10850
-Connection ~ 14800 11450
 Wire Wire Line
 	14050 10850 14050 11000
 Wire Wire Line
@@ -2328,6 +2308,26 @@ Wire Wire Line
 	15700 11000 15950 11000
 Wire Wire Line
 	15950 11000 15950 11150
+Connection ~ 15700 11000
+Wire Wire Line
+	15600 11450 15600 10850
+Wire Wire Line
+	14300 11450 14950 11450
+Connection ~ 14300 11450
+Wire Wire Line
+	14950 11450 14950 10850
+Connection ~ 14950 11450
+Wire Wire Line
+	14950 11450 15600 11450
+Wire Wire Line
+	14150 11650 14800 11650
+Wire Wire Line
+	14800 11650 14800 10850
+Connection ~ 14150 11650
+Wire Wire Line
+	14800 11650 15450 11650
+Wire Wire Line
+	15450 11650 15450 10850
 Wire Wire Line
 	7900 8650 8600 8650
 Wire Wire Line
@@ -2340,5 +2340,5 @@ Wire Bus Line
 	12000 8900 12000 10300
 Wire Bus Line
 	8500 8350 8500 10300
-Connection ~ 15700 11000
+Connection ~ 14800 11650
 $EndSCHEMATC
