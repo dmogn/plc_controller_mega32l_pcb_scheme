@@ -23,3 +23,5 @@ Status: Alpha
 
 
 ![KiCAD PLC Scheme Screenshot](doc/scheme_screenshot.png "PLC Scheme Screenshot")
+
+![KiCAD PLC PCB Screenshot](doc/pcb_screenshot.png "PLC PCB Screenshot")
